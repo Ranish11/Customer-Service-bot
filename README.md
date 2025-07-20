@@ -39,8 +39,13 @@ GROQ_KEY=your_groq_api_key_here
 # From project root:
 npm install concurrently
 npm run dev
+
+---
+
 ##🧠 What It Does
 This chatbot scrapes live data from any website using Puppeteer, sends that data to the Groq LLaMA 4 API, and returns contextual answers to user queries — all in real time.
+
+---
 
 ##👨‍💻 Author
 Built by Ranish T
