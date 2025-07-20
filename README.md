@@ -17,7 +17,9 @@ No need for manual datasets or pre-training — just drop a link and start chatt
 
 ## 📁 Folder Structure
 
-
+custombot/
+├── client/ # React frontend (Vite)
+├── server/ # Node.js + Express backend
 ---
 
 ## 🛠️ Tech Stack
