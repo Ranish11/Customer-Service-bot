@@ -1,3 +1,4 @@
+
 # 🤖 CustomBot – Smart AI Chatbot for Any Website
 
 **CustomBot** is an intelligent chatbot that can answer user queries based on live content fetched directly from any website URL.  
@@ -17,9 +18,12 @@ No need for manual datasets or pre-training — just drop a link and start chatt
 
 ## 📁 Folder Structure
 
+```
 custombot/
-├── client/ # React frontend (Vite)
-├── server/ # Node.js + Express backend
+├── client/   # React frontend (Vite)
+├── server/   # Node.js + Express backend
+```
+
 ---
 
 ## 🛠️ Tech Stack
@@ -33,20 +37,35 @@ custombot/
 ---
 
 ## ⚙️ Getting Started
+
+### 1. Install Dependencies
+```bash
 cd client && npm install
 cd ../server && npm install
+```
+
+### 2. Add your Environment Variable
+Create a `.env` file in the `server/` folder and add:
+```bash
 GROQ_KEY=your_groq_api_key_here
+```
+
+### 3. Start the App
+```bash
 # From project root:
 npm install concurrently
 npm run dev
+```
 
 ---
 
-##🧠 What It Does
+## 🧠 What It Does
+
 This chatbot scrapes live data from any website using Puppeteer, sends that data to the Groq LLaMA 4 API, and returns contextual answers to user queries — all in real time.
 
 ---
 
-##👨‍💻 Author
-Built by Ranish T
+## 👨‍💻 Author
+
+Built by **Ranish T**  
 Open to collaborations, feedback, or improvements — feel free to raise issues or pull requests.
