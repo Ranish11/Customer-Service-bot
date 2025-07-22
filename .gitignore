@@ -1,15 +1,14 @@
-# Root-level ignores
+# 📁 Root-level folders & environment files
 node_modules/
 dist/
 .env
 .env.*.local
-*.log
-
 .env.production
 .env.development
 .vite
+*.log
 
-# Server (Node/Express)
+# 🚀 Server-side (Node.js / Express) specific ignores
 server/node_modules/
 server/.env
 server/.env.local
@@ -17,13 +16,13 @@ server/.env.production
 server/.env.development
 server/package-lock.json
 
-# OS/system files
+# 💻 OS/system junk files
 .DS_Store
 Thumbs.db
 
-# Editor files
+# 🧠 Editor/IDE related
 .vscode/*
-!.vscode/extensions.json
+!.vscode/extensions.json  # Keep recommended extensions
 .idea/
 *.swp
 *.swo
