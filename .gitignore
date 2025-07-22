@@ -1,0 +1,29 @@
+# Root-level ignores
+node_modules/
+dist/
+.env
+.env.*.local
+*.log
+
+.env.production
+.env.development
+.vite
+
+# Server (Node/Express)
+server/node_modules/
+server/.env
+server/.env.local
+server/.env.production
+server/.env.development
+server/package-lock.json
+
+# OS/system files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
